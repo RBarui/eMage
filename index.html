@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title> Image filter by Rajarshi </title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <script src="js/source.js" >
+</script>
+
+<h1>
+  eMage - The filter 
+</h1>
+
+<div id="d0">
+  <canvas id="c1">
+  </canvas>
+</div>
+
+<div id="container">
+  <div id="d1">
+    <h3>
+    Load Image
+  </h3>
+    <input id="file" type=file multiple="false" accept="image/*" onchange="upload()">
+  </div>
+
+
+  <div id="d2">
+    <h3>
+    Choose Filter
+  </h3>
+    <input id="b1" type=button value="80's" onclick="f1()">
+    <input id="b2" type=button value="French" onclick="f2()">
+    <input id="b3" type=button value="Rainbow" onclick="f3()">
+    <input id="b4" type=button value="Maze" onclick="f4()">
+      <input id="b5" type=button value="Blooper" onclick="f5()">
+      <input id="b6" type=button value="Marxist" onclick="f6()">
+      <input id="b7" type=button value="Spriral" onclick="f7()">
+      <input id="b8" type=button value="Splashed" onclick="f8()">
+  </div>
+
+  <div id="d3">
+    <h3>
+   Handler
+  </h3>
+    <input id="reset" type=button value="Reset Image" onclick="resetImage()"><!--
+--><input id="clear" type=button value="Clear Canvas" onclick="clearCanvas()"><!----><input id="down" type=button value="Download" onclick="dlCanvas()">
+  </div>
+</div>
+
+R A J A R S H I  B A R U I  2016
+  
+      <script src="js/index.js"></script>
+
+</body>
+</html>
