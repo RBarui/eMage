@@ -1,0 +1,84 @@
+body {
+  font-family: helvetica;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  background-color: #85CCF9;
+}
+
+h1 {
+  font-family:  Papyrus;
+  font-stretch: expanded;
+  margin: 15px;
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #EFF5F9;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+canvas {
+  width: 750px;
+  border: 1px dotted white;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+#container {
+  display: flex;
+}
+
+#container > div {
+  flex: 1;
+  /*grow*/
+}
+
+#d0 {
+  margin: 15px;
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #EFF5F9;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+#d1 {
+  margin: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border: 2px solid gray;
+  padding: 5px;
+  padding-top: 0px;
+  border-radius: 10px;
+  background-color: #EFF5F9;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+#d2 {
+  margin: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border: 2px solid gray;
+  padding: 5px;
+  padding-top: 0px;
+  border-radius: 10px;
+  background-color: #EFF5F9;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+#d3 {
+  margin: 15px;
+  margin-top: 0px;
+  border: 2px solid gray;
+  padding: 5px;
+  padding-top: 0px;
+  border-radius: 10px;
+  background-color: #EFF5F9;
+  box-shadow: 5px 5px 5px #49565F;
+}
+
+input {
+  margin-bottom: 5px;
+}
